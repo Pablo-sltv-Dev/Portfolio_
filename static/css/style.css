@@ -82,6 +82,10 @@ button.opc{
 }
 
 
+#for{
+    border: 1px solid red;
+}
+
 #for > .opcs_for{
    
     background-color:var(--bg-secondary);

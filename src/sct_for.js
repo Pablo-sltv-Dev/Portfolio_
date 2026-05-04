@@ -1,7 +1,15 @@
 import { create_tag_div, create_tag_Ul, create_tag_Li, create_tag_img, create_tag_bto, create_tag_figure, create_tag_figcaption } from "./utils/criacoes.js";
 
 export function open_table(tag_section){
-  tag_section.style.justifyContent = "center"  
+
+  document.getElementById("opc_bckd").disabled= true;
+  document.getElementById("opc_frnt").disabled=true;
+  document.getElementById("opc_BncDds").disabled=true;
+  document.getElementById("opc_frrmnts").disabled=true;
+  document.getElementById("opc_frmwrk").disabled=true;
+
+  setTimeout(()=>{ // 1 segundo
+    tag_section.style.justifyContent = "center"  
     
   const table = create_tag_div("prancheta");
 
@@ -31,11 +39,7 @@ export function open_table(tag_section){
 
 // _____________________________________________________________
 
-   document.getElementById("opc_bckd").disabled= true;
-    document.getElementById("opc_frnt").disabled=true;
-    document.getElementById("opc_BncDds").disabled=true;
-  document.getElementById("opc_frrmnts").disabled=true;
-  document.getElementById("opc_frmwrk").disabled=true;
+
 
    bto_fech.addEventListener("click", () => {
     
@@ -48,6 +52,9 @@ export function open_table(tag_section){
     tag_section.style.justifyContent = "space-around"
     tag_section.removeChild(table)
    })
+  }, 1000) // 1 segundo
+
+  
 // _____________________________________________________________
 
   

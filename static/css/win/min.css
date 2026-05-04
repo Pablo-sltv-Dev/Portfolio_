@@ -270,21 +270,23 @@ align-items: center;
 }
 
 
+
 /* ________________________________________ */
 
 #for > button.opcs_for:disabled{
-    opacity: 0;
-    width: 0%;
-    height: 0%;
+    animation: var(--saida-vertical);
+    width: 0;
+    height: 0;
 }
+
+
 #for > #prancheta{
     background-color: var(--secondary);
     border: 1px solid white;
     width: 75%;
     height: 50%;
     display: block;
-    /* height: 70%; */
-    /* position: relative; */
+    
 }
 
 #prancheta #qt{

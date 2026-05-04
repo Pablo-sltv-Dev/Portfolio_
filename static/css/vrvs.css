@@ -1,3 +1,4 @@
+@import url("./animation.css");
 :root{
 
     /* --red-dps: #FF4D6D; */
@@ -14,6 +15,9 @@
                0 0 10px #FF2E63,
                0 0 20px #FF2E63; ;
     --text-primary: #FFFFFF; 
-  --text-secondary: #E5E5E5; /* Cinza Médio */
+    --text-secondary: #E5E5E5; /* Cinza Médio */
+    --entrada-vertical: scale-in-ver-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both; 
+    --saida-vertical: /* -webkit-animation: scale-out-vertical 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both; */
+ scale-out-vertical 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 
 }
