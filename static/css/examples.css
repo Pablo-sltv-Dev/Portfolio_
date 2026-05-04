@@ -1,0 +1,12 @@
+:root {
+  --primary: #8A2BE2;      /* Roxo Cósmico */
+  --secondary: #191970;     /* Azul Profundo */
+  --accent: #FFD700;        /* Dourado Guardião */
+  --bg-gradient: color-change-2x 2s linear infinite alternate both;
+	        animation: color-change-2x 2s linear infinite alternate both;
+  
+  --text-primary: #E6E6FA;  /* Lavanda Clara */
+  --text-secondary: #A9A9A9; /* Cinza Médio */
+  
+}
+/* #892be269 */

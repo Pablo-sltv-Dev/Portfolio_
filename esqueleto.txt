@@ -1,0 +1,69 @@
+100 L
+100 H
+
+1. Página Inicial (Home)
+Apresentação pessoal clara e objetiva
+Foto profissional (opcional, mas recomendado)
+Título/função: "Desenvolvedor Full Stack" ou "Estudante de ADS & Desenvolvedor"
+Call-to-action para contato ou projetos
+
+
+
+
+
+2. Sobre Mim
+    1. Sua trajetória acadêmica (curso de ADS)
+    2. Experiência em desenvolvimento
+    3. Tecnologias que domina
+    4. Objetivos profissionais
+    5. Hobbies relacionados à tecnologia
+
+__ Sobre Mim __
+Atualmente estou concluindo o curso técnico em Análise e Desenvolvimento de Sistemas e já atuo como desenvolvedor Full Stack.
+Tenho experiência no desenvolvimento de um sistema CRUD utilizando uma API Flask.Sou uma pessoa que aprende rápido: com prática contínua, consigo dominar qualquer tecnologia necessária.
+Meu objetivo no momento é conquistar um estágio com salário fixo na área de Desenvolvimento de Sistemas ou Desenvolvimento Full Stack.Gosto de explorar diferentes linguagens e testar possibilidades — mesmo quando os testes resultam em falhas, pois acredito que é assim que evoluímos de verdade.
+
+
+
+3. Projetos
+Esta é a seção mais importante! Inclua:
+
+    3-5 projetos principais
+    Screenshots ou GIFs demonstrativos
+    Descrição do problema resolvido
+    Tecnologias utilizadas
+    Links para GitHub e deploy (se disponível)
+
+
+4. Habilidades Técnicas
+Organize por categorias:
+Frontend: HTML, CSS, JavaScript, React, Vue, etc.
+Backend: Node.js, Python, Java, PHP, etc.
+Banco de Dados: MySQL, PostgreSQL, MongoDB, etc.
+Ferramentas: Git, Docker, AWS, etc.
+
+5. Contato
+Email profissional
+LinkedIn
+GitHub
+Formulário de contato
+
+
+4. Habilidades Técnicas *estrututra atual*
+Organize por categorias:
+Frontend: HTML, CSS, JavaScript
+
+Backend: Node.js, Python, PHP, Flask, DJango
+
+
+Banco de Dados: MySQL, PostgreSQL, SQLite
+
+Ferramentas: GitHub
+
+
+No momento estou em duvida sobre oq colocar na parte de ferramentas. Poderia me citar alguns exemplos?
+
+
+
+
+
