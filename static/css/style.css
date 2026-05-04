@@ -38,6 +38,55 @@ button.opc{
     color: white;
 }
 
+#second .container-text h2{
+        /* border: 1px solid white; */
+        color:var(--text-primary);
+}
+#second .container-text h3 span{
+        color: var(--primary);
+}
+
+
+#ap >h4{
+    /* border: 1px solid yellow; */
+    color: var(--primary);
+}
+
+
+#ap > figcaption{
+    /* border: 1px solid yellow; */
+    color: var(--text-secondary);
+}
+#ap>figcaption>a{
+    color: var(--text-primary);
+}
+#thre > #kids{
+     background-color: var(--bg-secondary);
+}
+
+
+#kids> h4{
+     color: var(--primary);
+
+}
+
+
+#kids figcaption{
+    color: var(--text-secondary);
+
+   
+}
+
+#kids > figcaption >  a{
+        color: var(--text-primary);
+}
+
+
+#for > .opcs_for{
+   
+    background-color:var(--bg-secondary);
+    color: var(--primary);
+}
 
 
 
