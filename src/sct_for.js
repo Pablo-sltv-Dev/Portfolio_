@@ -12,6 +12,7 @@ export function open_table(tag_section){
     tag_section.style.justifyContent = "center"  
     
   const table = create_tag_div("prancheta");
+  table.classList.add("scale-in-center")
 
   const bto_fech = create_tag_bto("qt", "X");
   table.appendChild(bto_fech)

@@ -1,6 +1,8 @@
 @import url("./actions.css");
 @import url("./animation.css");
 @import url("./win/min.css");
+@import url("./win/max.css");
+
 @import url("./vrvs.css");
 
 *{
@@ -82,9 +84,7 @@ button.opc{
 }
 
 
-#for{
-    border: 1px solid red;
-}
+
 
 #for > .opcs_for{
    

@@ -274,13 +274,16 @@ align-items: center;
 /* ________________________________________ */
 
 #for > button.opcs_for:disabled{
-    animation: var(--saida-vertical);
+    -webkit-animation: scale-out-vertical 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	        animation: scale-out-vertical 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
     width: 0;
     height: 0;
 }
 
 
 #for > #prancheta{
+   
+    transition: 0.3s ease;
     background-color: var(--secondary);
     border: 1px solid white;
     width: 75%;

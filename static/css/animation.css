@@ -10,6 +10,10 @@
  * animation scale-out-vertical
  * ----------------------------------------
  */
+
+
+ /* -webkit-animation: scale-out-vertical 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	        animation: scale-out-vertical 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both; */
 @-webkit-keyframes scale-out-vertical {
   0% {
     -webkit-transform: scaleY(1);
@@ -49,6 +53,13 @@
  * animation scale-in-ver-center
  * ----------------------------------------
  */
+
+/* -webkit-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both; */
+.scale-in-center {
+	-webkit-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
 @-webkit-keyframes scale-in-ver-center {
   0% {
     -webkit-transform: scaleY(0);
