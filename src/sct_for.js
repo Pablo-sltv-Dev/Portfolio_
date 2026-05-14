@@ -1,15 +1,52 @@
 import { create_tag_div, create_tag_Ul, create_tag_Li, create_tag_img, create_tag_bto, create_tag_figure, create_tag_figcaption } from "./utils/criacoes.js";
 
-export function open_table(tag_section){
+export class Section_for{
 
-  document.getElementById("opc_bckd").disabled= true;
-  document.getElementById("opc_frnt").disabled=true;
-  document.getElementById("opc_BncDds").disabled=true;
-  document.getElementById("opc_frrmnts").disabled=true;
-  document.getElementById("opc_frmwrk").disabled=true;
+  constructor(){
 
-  setTimeout(()=>{ // 1 segundo
-    tag_section.style.justifyContent = "center"  
+  }
+
+  function_desactivate_bto(){
+
+  }
+  function_bto_qt(section, table,opc_1, opc_2, opc_3, opc_4, opc_5){
+    // console.log(table)
+    section.removeChild(table)
+
+    section.style.justifyContent = "space-around"
+    
+    opc_1.disabled = false;
+    opc_2.disabled = false;
+    opc_3.disabled = false;
+    opc_4.disabled = false;
+    opc_5.disabled = false;
+    // opc_6.disabled = false;
+      
+    return true
+      //pegar a tag section
+      
+ 
+    
+  
+
+  }
+
+
+
+open_table(tag_section){
+
+  const bto_opc01 = document.getElementById("opc_bckd")
+  bto_opc01.disabled= true;
+  const bto_opc02 = document.getElementById("opc_frnt")
+  bto_opc02.disabled=true;
+  const bto_opc03 = document.getElementById("opc_BncDds")
+  bto_opc03.disabled=true;
+  const bto_opc04 = document.getElementById("opc_frrmnts")
+  bto_opc04.disabled=true;
+  const bto_opc05 = document.getElementById("opc_frmwrk")
+  bto_opc05.disabled=true;
+
+  tag_section.style.justifyContent = "center"  
     
   const table = create_tag_div("prancheta");
   table.classList.add("scale-in-center")
@@ -41,18 +78,11 @@ export function open_table(tag_section){
 // _____________________________________________________________
 
 
+   bto_fech.addEventListener("click", () => this.function_bto_qt(tag_section, table,  bto_opc01, bto_opc02, bto_opc03, bto_opc04, bto_opc05) )
 
-   bto_fech.addEventListener("click", () => {
+  setTimeout(()=>{ // 1 segundo
     
-    document.getElementById("opc_bckd").disabled= false;
-    document.getElementById("opc_frnt").disabled=false;
-    document.getElementById("opc_BncDds").disabled=false;
-  document.getElementById("opc_frrmnts").disabled=false;
-  document.getElementById("opc_frmwrk").disabled=false;
 
-    tag_section.style.justifyContent = "space-around"
-    tag_section.removeChild(table)
-   })
   }, 1000) // 1 segundo
 
   
@@ -60,10 +90,10 @@ export function open_table(tag_section){
 
   
 }
-
 // ==========================================================
 
-export function open_table_front(tag_section){
+
+open_table_front(tag_section){
   tag_section.style.justifyContent = "center"  
   const table = create_tag_div("prancheta");
 
@@ -110,29 +140,25 @@ export function open_table_front(tag_section){
 
   // _____________________________________________________________
 
-   document.getElementById("opc_bckd").disabled= true;
-    document.getElementById("opc_frnt").disabled=true;
-    document.getElementById("opc_BncDds").disabled=true;
-  document.getElementById("opc_frrmnts").disabled=true;
-  document.getElementById("opc_frmwrk").disabled=true;
+  const bto_opc01 = document.getElementById("opc_bckd")
+  bto_opc01.disabled= true;
+  const bto_opc02 = document.getElementById("opc_frnt")
+  bto_opc02.disabled=true;
+  const bto_opc03 = document.getElementById("opc_BncDds")
+  bto_opc03.disabled=true;
+  const bto_opc04 = document.getElementById("opc_frrmnts")
+  bto_opc04.disabled=true;
+  const bto_opc05 = document.getElementById("opc_frmwrk")
+  bto_opc05.disabled=true;
 
-   bto_fech.addEventListener("click", () => {
-    document.getElementById("opc_bckd").disabled= false;
-    document.getElementById("opc_frnt").disabled=false;
-    document.getElementById("opc_BncDds").disabled=false;
-  document.getElementById("opc_frrmnts").disabled=false;
-  document.getElementById("opc_frmwrk").disabled=false;
-
-    tag_section.style.justifyContent = "space-around"
-
-    tag_section.removeChild(table)
-   })
+   bto_fech.addEventListener("click", () => this.function_bto_qt(tag_section, table,  bto_opc01, bto_opc02, bto_opc03, bto_opc04, bto_opc05) )
 // _____________________________________________________________
 }
 
 // ===========================================================
 
-export function open_table_Bnc(tag_section){
+
+open_table_Bnc(tag_section){
   tag_section.style.justifyContent = "center"  
   const table = create_tag_div("prancheta");
 
@@ -181,31 +207,25 @@ export function open_table_Bnc(tag_section){
 
    // _____________________________________________________________
 
-   document.getElementById("opc_bckd").disabled= true;
-    document.getElementById("opc_frnt").disabled=true;
-    document.getElementById("opc_BncDds").disabled=true;
-  document.getElementById("opc_frrmnts").disabled=true;
-  document.getElementById("opc_frmwrk").disabled=true;
+   const bto_opc01 = document.getElementById("opc_bckd")
+  bto_opc01.disabled= true;
+  const bto_opc02 = document.getElementById("opc_frnt")
+  bto_opc02.disabled=true;
+  const bto_opc03 = document.getElementById("opc_BncDds")
+  bto_opc03.disabled=true;
+  const bto_opc04 = document.getElementById("opc_frrmnts")
+  bto_opc04.disabled=true;
+  const bto_opc05 = document.getElementById("opc_frmwrk")
+  bto_opc05.disabled=true;
 
-   bto_fech.addEventListener("click", () => {
-    document.getElementById("opc_bckd").disabled= false;
-    document.getElementById("opc_frnt").disabled=false;
-    document.getElementById("opc_BncDds").disabled=false;
-  document.getElementById("opc_frrmnts").disabled=false;
-  document.getElementById("opc_frmwrk").disabled=false;
-
-        tag_section.style.justifyContent = "space-around"
-
-    tag_section.removeChild(table)
-   })
+   bto_fech.addEventListener("click", () => this.function_bto_qt(tag_section, table,  bto_opc01, bto_opc02, bto_opc03, bto_opc04, bto_opc05) )
 // _____________________________________________________________
 }
-
 
 // ===========================================================
 
 
-export function open_table_FM(tag_section){
+open_table_FM(tag_section){
   tag_section.style.justifyContent = "center"  
   const table = create_tag_div("prancheta");
 
@@ -255,30 +275,25 @@ export function open_table_FM(tag_section){
 
   // _____________________________________________________________
 
-   document.getElementById("opc_bckd").disabled= true;
-    document.getElementById("opc_frnt").disabled=true;
-    document.getElementById("opc_BncDds").disabled=true;
-  document.getElementById("opc_frrmnts").disabled=true;
-  document.getElementById("opc_frmwrk").disabled=true;
+   const bto_opc01 = document.getElementById("opc_bckd")
+  bto_opc01.disabled= true;
+  const bto_opc02 = document.getElementById("opc_frnt")
+  bto_opc02.disabled=true;
+  const bto_opc03 = document.getElementById("opc_BncDds")
+  bto_opc03.disabled=true;
+  const bto_opc04 = document.getElementById("opc_frrmnts")
+  bto_opc04.disabled=true;
+  const bto_opc05 = document.getElementById("opc_frmwrk")
+  bto_opc05.disabled=true;
 
-   bto_fech.addEventListener("click", () => {
-    document.getElementById("opc_bckd").disabled= false;
-    document.getElementById("opc_frnt").disabled=false;
-    document.getElementById("opc_BncDds").disabled=false;
-  document.getElementById("opc_frrmnts").disabled=false;
-  document.getElementById("opc_frmwrk").disabled=false;
-
-    tag_section.style.justifyContent = "space-around"
-
-    tag_section.removeChild(table)
-   })
+   bto_fech.addEventListener("click", () => this.function_bto_qt(tag_section, table,  bto_opc01, bto_opc02, bto_opc03, bto_opc04, bto_opc05) )
 // _____________________________________________________________
 }
 
 // ===========================================================
 
 
-export function open_table_FmWk(tag_section){
+open_table_FmWk(tag_section){
   tag_section.style.justifyContent = "center"  
 
   const table = create_tag_div("prancheta");
@@ -317,22 +332,35 @@ const fig = create_tag_figure("fig_fm")
 
   // _____________________________________________________________
 
-   document.getElementById("opc_bckd").disabled= true;
-    document.getElementById("opc_frnt").disabled=true;
-    document.getElementById("opc_BncDds").disabled=true;
-  document.getElementById("opc_frrmnts").disabled=true;
-  document.getElementById("opc_frmwrk").disabled=true;
+  const bto_opc01 = document.getElementById("opc_bckd")
+  bto_opc01.disabled= true;
+  const bto_opc02 = document.getElementById("opc_frnt")
+  bto_opc02.disabled=true;
+  const bto_opc03 = document.getElementById("opc_BncDds")
+  bto_opc03.disabled=true;
+  const bto_opc04 = document.getElementById("opc_frrmnts")
+  bto_opc04.disabled=true;
+  const bto_opc05 = document.getElementById("opc_frmwrk")
+  bto_opc05.disabled=true;
 
-   bto_fech.addEventListener("click", () => {
-    document.getElementById("opc_bckd").disabled= false;
-    document.getElementById("opc_frnt").disabled=false;
-    document.getElementById("opc_BncDds").disabled=false;
-  document.getElementById("opc_frrmnts").disabled=false;
-  document.getElementById("opc_frmwrk").disabled=false;
-
-    tag_section.style.justifyContent = "space-around"
-
-    tag_section.removeChild(table)
-   })
+   bto_fech.addEventListener("click", () => this.function_bto_qt(tag_section, table,  bto_opc01, bto_opc02, bto_opc03, bto_opc04, bto_opc05) )
 // _____________________________________________________________
 }
+
+}
+
+
+
+
+
+
+
+
+
+
+// ===========================================================
+
+
+
+// ===========================================================
+
