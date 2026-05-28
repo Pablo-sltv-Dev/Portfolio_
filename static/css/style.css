@@ -12,93 +12,122 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 
 body{
     background-color: var(--bg-primary) ;
 }
 
-h1, h2, h3{
-    
+header  a {
     color: var(--text-primary);
-
+    text-decoration: none;
+    border: 1px solid var(--secondary);
+    background-color: var(--bg-secondary);
+    border-radius: var(--radius-md);
+    padding: 5px;
+    transition: all var(--transition-normal);
+}
+header  a:hover {
+    color: var(--warning);
+    text-decoration: none;
+    border: 1px solid var(--border-focus);
+    background-color: var(--bg-hover);
+    border-radius: var(--radius-md);
+    padding: 5px;
 }
 
 
-p.text-two{
-    color: var(--text-secondary);
-    text-align: justify;
-
+main h1{
+    color: var(--primary);
+    text-shadow: var(--text-shadow);
 }
-
-button.opc{
-    color: white;
-    background-color: transparent;
-}
-
-#sbscb{
-    background-color: var(--primary);
-    color: white;
-}
-
-#second .container-text h2{
-        /* border: 1px solid white; */
-        color:var(--text-primary);
-}
-#second .container-text h3 span{
-        color: var(--primary);
-}
-
-
-#ap >h4{
-    /* border: 1px solid yellow; */
+main h2{
     color: var(--primary);
 }
-
-
-#ap > figcaption{
-    /* border: 1px solid yellow; */
+main p{
     color: var(--text-secondary);
 }
-#ap>figcaption>a{
-    color: var(--text-primary);
-}
-#thre > #kids{
-     background-color: var(--bg-secondary);
+
+#one, #second, #thre, #for, #five{
+    border-bottom: 1px solid var(--border-primary);
 }
 
-
-#kids> h4{
-     color: var(--primary);
-
+#one > .container-text{
+        border: 1px solid var(--border-secondary);
 }
-
-
-#kids figcaption{
+#one .container-text > p{
     color: var(--text-secondary);
-
-   
 }
 
-#kids > figcaption >  a{
-        color: var(--text-primary);
+
+
+#second> .container-text{
+    border: 1px solid var(--border);
+    background-color: var(--bg-secondary);
 }
 
+#thre> .fgPrjts{
+    background-color: var(--bg-secondary);
+    border: 1px solid var(--border);
+    
+}
+.fgPrjts > img{
+
+    border-radius: var(--radius-md);
+}
+
+.fgPrjts > h4{
+    color:var(--text-secondary) ;
+}
+.fgPrjts > figcaption{
+    color: var(--text-muted);
+}
+.fgPrjts figcaption > a{
+    color: var(--info) ;
+}
 
 
 
 #for > .opcs_for{
-   
-    background-color:var(--bg-secondary);
-    color: var(--primary);
+    background-color: var(--surface);
+    color: var(--text-primary);
+    border: 1px solid var(--border);
+
+}
+#for > .opcs_for:hover{
+    background-color: var(--bg-hover);
+    border: 1px solid var(--border-focus);
+    color: var(--warning);
+}
+
+
+#for > #prancheta{
+    background-color: var(--bg-card);
+    border: 1px solid var(--border-focus);
+    border-radius: var(--radius-md);
+}
+
+#prancheta > #qt{
+    background-color: var(--warning);
+    color: var(--secondary);
+    border: 1px solid var(--primary);
 }
 
 
 
 
-footer{
-    border: 1px solid white;
-   
+#five address a:hover{
+    background-color: var(--bg-hover);
+}
 
+#five address a   svg  path{
+    fill: var(--primary);
 }
 
 
