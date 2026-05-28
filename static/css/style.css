@@ -60,6 +60,8 @@ main p{
 
 #one > .container-text{
         border: 1px solid var(--border-secondary);
+        border-radius: var(--radius-md);
+
 }
 #one .container-text > p{
     color: var(--text-secondary);
