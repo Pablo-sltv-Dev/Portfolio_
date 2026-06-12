@@ -1,33 +1,88 @@
 # Portfolio_
 
-root anterior
-```css
+breve descrição
+Portfólio Desenvolvido para demonstrar minhas Habilidades
 
-:root{
+---
+## Demonstração
 
-    /* --red-dps: #FF4D6D; */
-    /* --red-black: #B91C1C; */
+- Acesse o Projeto:
 
-    --primary: #FF2E63;
-    --secondary: #1F1F1F;
-    
-    --bg-primary: #000000;
-    --bg-secondary: #1A1A1A;
+  [Ver Projeto](https://vercel.com/ghostoficial601s-projects/pablo_matheus_lima_ferreira_dos_santos_dev)
 
-    
-    --text-shadow: 0 0 5px #FF2E63,
-               0 0 10px #FF2E63,
-               0 0 20px #FF2E63; ;
-    --text-primary: #FFFFFF; 
-    --text-secondary: #E5E5E5; /* Cinza Médio */
-    
+---
+## Funcionalidades 
 
-    /* ========= BORDER RADIUS ========= */
-  --radius-sm: 8px;
-  --radius-md: 14px;
-  --radius-lg: 20px;
-  --radius-xl: 28px;
+- Apresentação Pessoal
+- Tecnologias utilizadas
+- Design Responsivo
+- Links para o GitHub, LinkeIn, Instagram
 
-}
+---
+## Tecnologias
+
+- HTML5
+- CSS3
+- JavaScript
+
+
+---
+## Estrutura:
+```bash
+.
+├── index.html
+├── README.md
+├── src
+│   ├── sct_for.js
+│   └── utils
+│       └── criacoes.js
+└── static
+    ├── css
+    │   ├── actions.css
+    │   ├── animation.css
+    │   ├── style.css
+    │   ├── vrvs.css
+    │   └── win
+    │       ├── max.css
+    │       └── min.css
+    ├── img
+    │   ├── _bem-por-perto.vercel.app.png
+    │   ├── github-brands-solid.svg
+    │   ├── logo.png
+    │   ├── moon-regular.svg
+    │   ├── sun-regular.png
+    │   └── sun-regular.svg
+    └── js
+        └── script.js
 
 ```
+
+---
+## Como Executar:
+
+1. Clone o repositório
+```bash
+git clone https://github.com/seuusuario/linkdorepositorio.git
+```
+
+2. Abra o arquivo index.html no navegador
+
+---
+## Aprendizados:
+
+- Responsividade com CSS
+- Manipulação do DOM com JavaScript
+- Animação com CSS
+
+---
+## Melhorias Futuras:
+
+- Adicionar modo claro
+---
+## Autor:
+
+Pablo Matheus Lima Ferreira dos Santos
+
+[LinkedIn](https://www.linkedin.com/in/pablo-matheus-128a792a8/)
+
+---
