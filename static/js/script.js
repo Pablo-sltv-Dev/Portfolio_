@@ -3,6 +3,7 @@ import { Section_for } from "../../src/sct_for.js";
 console.log("Temos de altura: ",window.screen.availHeight,"\n e de altura temos: ", window.screen.availWidth)
 // ______________________________________
 
+/*
 const bto_back = document.getElementById("opc_bckd");
 
 
@@ -70,3 +71,4 @@ bto_FrWk.addEventListener("click", ()=> {
 
 
 })
+    */
